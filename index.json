@@ -1,5 +1,5 @@
 {
-  "version": "202010130001",
+  "version": "202010130002",
   "OmSdkURL": "https://mx-hadoop.s3.ap-northeast-2.amazonaws.com/android_team/com.mxtech.videoplayer.ad/adconfig/omsdk-v1.js",
   "ad_config": {
     "app": {
@@ -1247,6 +1247,20 @@
             "parallel": true,
             "preWaitTime": 100,
             "refreshImpressedAd": false,
+            "periodOfValiditySeconds": "3600"
+          },
+          {
+            "ads":[
+                     {
+                                "type": "AppNextBanner",
+                                "id": "51800850-49ac-41bc-91bf-984a27e73518",
+                                "bannerSize": "banner"
+                            }
+                  ],
+            "style": "320x50",
+            "parallel": true,
+            "refreshImpressedAd": true,
+            "distanceFromPrevious": 600,
             "periodOfValiditySeconds": "3600"
           },
           {
