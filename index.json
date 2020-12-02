@@ -61,7 +61,9 @@
                 "needParameter": true,
                 "thresholdBetweenAdsOnSeek" : 0.7,
                 "adPlaybackDelayDuringScrubMs": 16000,
-                 "mediaLoadTimeoutInMs": 8000
+                 "mediaLoadTimeoutInMs": 8000,
+                "enableWatchTimeBaseAds" : true,
+                "fakeCuePointsDistanceMs" : 30000
               },
               {
                 "name": "sony",
