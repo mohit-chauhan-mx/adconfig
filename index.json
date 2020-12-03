@@ -864,6 +864,7 @@
                   "type": "DFPAppInstallContent"
                 }
               ],
+              "type": "panelNative",
               "enable": "1",
               "interval": 8,
               "startPosition": 1
@@ -875,6 +876,7 @@
                   "type": "DFPAppInstallContent"
                 }
               ],
+              "type": "panelNative",
               "enable": "1",
               "interval": 8,
               "startPosition": 1
