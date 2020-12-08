@@ -82,6 +82,12 @@
                 "enable": "1",
                 "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/Test/Test_MXPlayer_Video1&ad_rule=1&description_url=[placeholder]&env=vp&impl=s&cmsid=2481704&vid=8dd3146272960be4a5d07a3406cc59f3&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
                 "needParameter": true
+              },
+              {
+                "name": "theaterMode",
+                "enable": "1",
+                "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator=",
+                "needParameter": false
               }
             ],
             "type": "videoRoll",
