@@ -566,6 +566,60 @@
               "multipleKey": true,
               "preloadCount": 2,
               "refreshImpressedAd": "true"
+            },
+            "myDownloads": {
+              "ads": [
+                {
+                  "id": "/6499/example/native",
+                  "type": "DFPAppInstallContent",
+                  "banner": true,
+                  "bannerSize": [
+                    "320x100",
+                    "300x250",
+                    "320x50",
+                    "320x250"
+                  ]
+                }
+              ],
+              "type": "trayNative",
+              "style": "320x50",
+              "enable": "1",
+              "preload": true,
+              "rowIndex": [
+                3,
+                5,
+                7
+              ],
+              "multipleKey": true,
+              "preloadCount": 2,
+              "refreshImpressedAd": "true"
+            },
+            "myDownloadEpisodes": {
+              "ads": [
+                {
+                  "id": "/21723553151/Test/Test_MXPlayer_Local_Native_Banner1",
+                  "type": "DFPAppInstallContent",
+                  "banner": true,
+                  "bannerSize": [
+                    "320x100",
+                    "300x250",
+                    "320x50",
+                    "320x250"
+                  ]
+                }
+              ],
+              "type": "trayNative",
+              "style": "320x50",
+              "enable": "1",
+              "preload": true,
+              "rowIndex": [
+                3,
+                5,
+                7
+              ],
+              "multipleKey": true,
+              "preloadCount": 2,
+              "refreshImpressedAd": "true"
             }
           }
         },
