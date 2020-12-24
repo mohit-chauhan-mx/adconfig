@@ -1,5 +1,5 @@
 {
-  "version": "202010130005",
+  "version": "202010130006",
   "OmSdkURL": "https://mx-hadoop.s3.ap-northeast-2.amazonaws.com/android_team/com.mxtech.videoplayer.ad/adconfig/omsdk-v1.js",
   "ad_config": {
     "app": {
@@ -60,6 +60,7 @@
                 "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/Test/Test_MXPlayer_Video1&ad_rule=1&description_url=[placeholder]&env=vp&impl=s&cmsid=2481704&vid=8dd3146272960be4a5d07a3406cc59f3&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
                 "theaterModeUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/Test/Test_MX_Video2&ad_rule=1&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300%7C640x480&unviewed_position_start=1&ciu_szs=720x120",
                 "needParameter": true,
+                "maxBitrate" : 200,
                  "mediaLoadTimeoutInMs": 8000,
                 "enableWatchTimeBaseAds" : true,
                 "fakeCuePointsDistanceMs" : 10000
