@@ -1,5 +1,5 @@
 {
-  "version": "202010130007",
+  "version": "202010130008",
   "OmSdkURL": "https://mx-hadoop.s3.ap-northeast-2.amazonaws.com/android_team/com.mxtech.videoplayer.ad/adconfig/omsdk-v1.js",
   "ad_config": {
     "app": {
