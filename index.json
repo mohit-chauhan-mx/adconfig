@@ -1,5 +1,5 @@
 {
-  "version": "202010130006",
+  "version": "202010130007",
   "OmSdkURL": "https://mx-hadoop.s3.ap-northeast-2.amazonaws.com/android_team/com.mxtech.videoplayer.ad/adconfig/omsdk-v1.js",
   "ad_config": {
     "app": {
@@ -912,30 +912,6 @@
               "enable": "1",
               "preload": true,
               "interval": 7
-            },
-            "myDownloads": {
-              "ads": [
-                {
-                  "id": "/6499/example/native",
-                  "type": "DFPAppInstallContent"
-                }
-              ],
-              "type": "panelNative",
-              "enable": "1",
-              "interval": 8,
-              "startPosition": 1
-            },
-            "myDownloadEpisodes": {
-              "ads": [
-                {
-                  "id": "/21723553151/Test/Test_MXPlayer_Local_Native_Banner1",
-                  "type": "DFPAppInstallContent"
-                }
-              ],
-              "type": "panelNative",
-              "enable": "1",
-              "interval": 8,
-              "startPosition": 1
             },
             "ac9c7003e29b06be167217e79802459b": {
               "ads": [
