@@ -1,5 +1,5 @@
 {
-  "version": "202010130008",
+  "version": "202010130009",
   "OmSdkURL": "https://mx-hadoop.s3.ap-northeast-2.amazonaws.com/android_team/com.mxtech.videoplayer.ad/adconfig/omsdk-v1.js",
   "ad_config": {
     "app": {
@@ -326,7 +326,7 @@
           },
           "offlineAdsConfigV2": {
             "type": "downloaded",
-            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/MXPlayer_downloaded_VideoAd_v2&ad_rule=1&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=xml_vmap&vpi=1&sz=400x300%7C640x480&unviewed_position_start=1&ciu_szs=720x120",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=%2F21723553151%2FIndiaQA%2FIndiaQA_downloaded_video&ad_rule=1&env=vp&cmsid=2481704&correlator=1632374335275059&tfcd=0&npa=0&gdfp_req=1&output=xml_vmap1&sz=400x300%7C640x480&unviewed_position_start=1&vpi=1&pp=MX_Adaptive_Android&vid=12500adab42def192b25df052957723e&description_url=[placeholder]&cust_params=sg%3DNA&ciu_szs=720x120&hl=en&idtype=adid&is_lat=0&rdid=4222a6eb-fcb4-4e9e-bb6d-10ca1ad1abe1&scor=925544238806541",
             "resolutions": "640x360"
           }
         },
