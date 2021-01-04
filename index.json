@@ -250,7 +250,7 @@
                 "needParameter": true,
                 "vastTimeoutInMs": 8000,
                  "enableWatchTimeBaseAds" : true,
-                "fakeCuePointsDistanceMs" : 30000
+                "fakeCuePointsDistanceMs" : 10000
               }
             ],
             "type": "videoRoll",
