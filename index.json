@@ -1,46 +1,40 @@
 {
-	"version": "202010130016",
-	"ad_config": {
+  "version": "202010130015",
+  "ad_config": {
 
-		"ott": {
-			"videoAds": {
-				"videoRoll": {
-					"ads": [{
-							"name": "normal",
-							"enable": "1",
-							"baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/IndiaQA/IndiaQA_video_preroll&ad_rule=1&description_url=[placeholder]&env=vp&impl=s&cmsid=2481704&vid=8dd3146272960be4a5d07a3406cc59f3&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300%7C640x480&unviewed_position_start=1&ciu_szs=720x120",
-							"needParameter": true,
-							"Maxbitrate": 800,
-							"mediaLoadTimeoutInMs": 8000,
-							"vastTimeoutInMs": 8000
-						},
-						{
-							"name": "sony",
-							"enable": "1",
-							"baseUrl": "https:\/\/pubads.g.doubleclick.net\/gampad\/ads?iu=\/21723553151\/MXPlayer_Android_App_Online\/Videos\/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
-							"needParameter": true
-						},
-						{
-							"name": "erotic",
-							"enable": "1",
-							"baseUrl": "https:\/\/pubads.g.doubleclick.net\/gampad\/ads?iu=\/21723553151\/MXPlayer_Android_App_Online\/Videos\/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
-							"needParameter": true
-						},
-						{
-							"name": "voot",
-							"enable": "1",
-							"baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/Test/Test_MXPlayer_Video1&ad_rule=1&description_url=[placeholder]&env=vp&impl=s&cmsid=2481704&vid=8dd3146272960be4a5d07a3406cc59f3&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
-							"needParameter": true
-						}
-					],
-					"type": "videoRoll",
-					"enable": "1"
-				}
+    "ott": {
+      "videoAds": {
+        "videoRoll": {
+          "ads": [{
+            "enable": "1",
+            "name": "normal",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
+            "needParameter": true,
+            "Maxbitrate": 400,
+            "mediaLoadTimeoutInMs": 4000,
+            "vastTimeoutInMs": 1000
+          },
+            {
+              "enable": "1",
+              "name": "sony",
+              "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
+              "needParameter": true
+            },
+            {
+              "enable": "1",
+              "name": "voot",
+              "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
+              "needParameter": true
+            }
+          ],
+          "type": "videoRoll",
+          "enable": "1"
+        }
 
-			}
-		}
+      }
+    }
 
-	},
-	"global_config": {},
-	"periodOfValiditySeconds": "86400"
+  },
+  "global_config": {},
+  "periodOfValiditySeconds": "86400"
 }
