@@ -1,40 +1,49 @@
 {
-  "version": "202010130015",
-  "ad_config": {
-
-    "ott": {
-      "videoAds": {
-        "videoRoll": {
-          "ads": [{
-            "enable": "1",
-            "name": "normal",
-            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/IndiaQA/IndiaQA_video_preroll&ad_rule=1&description_url=[placeholder]&env=vp&impl=s&cmsid=2481704&vid=8dd3146272960be4a5d07a3406cc59f3&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300%7C640x480&unviewed_position_start=1&ciu_szs=720x120",
-            "needParameter": true,
-            "Maxbitrate": 400,
-            "mediaLoadTimeoutInMs": 8000,
-            "vastTimeoutInMs": 8000
-          },
-            {
-              "enable": "1",
-              "name": "sony",
-              "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
-              "needParameter": true
-            },
-            {
-              "enable": "1",
-              "name": "voot",
-              "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/FireStick_VideoAd1&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1",
-              "needParameter": true
-            }
-          ],
-          "type": "videoRoll",
-          "enable": "1"
-        }
-
-      }
-    }
-
-  },
-  "global_config": {},
-  "periodOfValiditySeconds": "86400"
+	"version": "202010130015",
+	"ad_config": {
+		"ott": {
+			"videoAds": {
+				"videoRoll": {
+					"ads": [{
+							"enable": "1",
+							"name": "normal",
+							"baseUrl": "https://mxaserver-beta.dev.mxplay.com/v1/mxplayer/ad/vmap?adType=VideoAd&adUnitId=VideoAd&vid=cabbda9ca9131dfc76011992c351fcb7&vid_type=tvshow_episode&output=xml_vmap",
+							"needParameter": true,
+							"Maxbitrate": 400,
+							"mediaLoadTimeoutInMs": 8000,
+							"vastTimeoutInMs": 10000,
+							"pubmaticConfig": {
+								"enable": true,
+								"pubId": "156276",
+								"profileId": 2486,
+								"adUnitId": "/15671365/pm_ott_video",
+								"maxAdDuration": 30,
+								"skipMin": 15,
+								"skipAfter": 5,
+								"timeOutInMilli": 8000,
+								"enableCustomTab": 1,
+								
+							}
+						},
+						{
+							"enable": "1",
+							"name": "sony",
+							"baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpodbumper&cmsid=496&vid=short_onecue&correlator=",
+							"needParameter": false
+						},
+						{
+							"enable": "1",
+							"name": "voot",
+							"baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpodbumper&cmsid=496&vid=short_onecue&correlator=",
+							"needParameter": false
+						}
+					],
+					"type": "videoRoll",
+					"enable": "1"
+				}
+			}
+		}
+	},
+	"global_config": {},
+	"periodOfValiditySeconds": "86400"
 }
