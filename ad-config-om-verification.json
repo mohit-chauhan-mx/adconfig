@@ -1,0 +1,1605 @@
+{
+  "version": "202103150001",
+  "OmPartnerName": "Mxplayerin",
+  "periodOfValiditySeconds": "3600",
+  "nativeTimeToRefreshMS": 700,
+  "adGroupName": "RB50_NOGP_1.34.00_above_2021_03_15_01",
+  "MxAdServerURL": "https://mxaserver-beta.dev.mxplay.com/v1/mxplayer/",
+  "OmSdkURL": "https://assets-3.mxplay.com/adtech/prod/omsdk-v1.js",
+  "ad_config": {
+    "app": {
+      "interstitialOnExit": {
+        "ads": [{
+          "id": "InterstitialExit",
+          "type": "MXAdInterstitial"
+        }],
+        "type": "DFPInterstitial",
+        "enable": "1",
+        "parallel": "true",
+        "timeInterval": 18,
+        "videoInterval": 0,
+        "maxShownPerDay": 35
+      },
+      "interstitialForeground": {
+        "default": {
+          "ads": [{
+            "type": "DFPInterstitial",
+            "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_Playback/interstitial_B2F_NoGP",
+            "noAdTime": 3600
+          }, {
+            "type": "DFPInterstitial",
+            "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_Playback/interstitial_B2F_NoGP_1",
+            "noAdTime": 3600
+          }, {
+            "type": "DFPInterstitial",
+            "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_Playback/interstitial_B2F_NoGP_2",
+            "noAdTime": 3600
+          }],
+          "type": "DFPInterstitialForeground",
+          "enable": "3",
+          "minAppUsage": 120,
+          "minDuration": 300,
+          "appInactiveTime": 10,
+          "backgroundFrequency": 3
+        },
+        "games": {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_Playback/interstitial_B2F_NoGP",
+            "type": "DFPInterstitial",
+            "noAdTime": 3600
+          }],
+          "type": "DFPInterstitialForeground",
+          "enable": "0",
+          "minAppUsage": 120,
+          "minDuration": 300,
+          "appInactiveTime": 10,
+          "backgroundFrequency": 3
+        }
+      }
+    },
+    "ott": {
+      "videoAds": {
+        "videoRoll": {
+          "ads": [{
+            "name": "normal",
+            "enable": "1",
+            "baseUrl": "https://mxaserver-beta.dev.mxplay.com/v1/mxplayer/ad/vmap?adType=VideoAd&adUnitId=VideoAd&vid=cabbda9ca9131dfc76011992c351fcb7&vid_type=tvshow_episode&output=xml_vmap",
+            "theaterModeUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/Theatermode_VideoAd1&ad_rule=1&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
+            "needParameter": true,
+            "thresholdBetweenAdsOnSeek": 0.7,
+            "adPlaybackDelayDuringScrubMs": 16000,
+            "mediaLoadTimeoutInMs": 8000,
+            "adPreloadFakeProgressThresholdMs": 4000
+          }, {
+            "name": "sony",
+            "enable": "1",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480|1x1&iu=/423477888/SonyLiv/Times_Internet_Video&ciu_szs=1x1&ad_rule=1&impl=s&cmsid=2461245&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&url={REFERRER_URL_UNESC}&correlator={CACHEBUSTER}&nofb=0",
+            "needParameter": true
+          }, {
+            "name": "erotic",
+            "enable": "1",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/Er_Videoad1&ad_rule=1&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
+            "needParameter": true,
+            "thresholdBetweenAdsOnSeek": 0.7,
+            "adPlaybackDelayDuringScrubMs": 16000,
+            "mediaLoadTimeoutInMs": 8000,
+            "adPreloadFakeProgressThresholdMs": 4000
+          }, {
+            "name": "voot",
+            "enable": "1",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/Voot&ad_rule=1&&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
+            "needParameter": true,
+            "thresholdBetweenAdsOnSeek": 0.7,
+            "adPlaybackDelayDuringScrubMs": 16000,
+            "mediaLoadTimeoutInMs": 8000,
+            "adPreloadFakeProgressThresholdMs": 4000
+          }],
+          "type": "videoRoll",
+          "enable": "1"
+        },
+        "livePreRoll": {
+          "ads": [{
+            "name": "default",
+            "enable": "1",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/LiveTV/DAI_Preroll&description_url=http%3A%2F%2Fwww.mxplayer.in&tfcd=0&npa=0&sz=400x300%7C640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&ad_rule=0&impl=s&correlator=",
+            "maxBitrate": 200,
+            "vastTimeoutInMs": 1000,
+            "mediaLoadTimeoutInMs": 4000
+          }],
+          "type": "videoRoll",
+          "enable": "1",
+          "vastTimeOut": 2000
+        },
+        "videoDaiRoll": {
+          "ads": [{
+            "enable": "0",
+            "assetKey": "cHIHBOTYQbWT6lDM8YChxA",
+            "targetId": "7021.SETHD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "fi5oKDz-RnC4XnNBHtxvOQ",
+            "targetId": "7022.SABHD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "ai2RGVVUQB6n4d1t5jOppg",
+            "targetId": "7023.MAXHD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "nNLNPmzGQwiqWAwymN_iUg",
+            "targetId": "7024.PIXHD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "Fq1Ea8E4RySQ6U-xpwRknA",
+            "targetId": "7025.AXNHD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "1",
+            "assetKey": "10_vqSZWSae32wBBBSf72Q",
+            "targetId": "7026.SonyWah.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "l6F6b0ymTie7-HCLhXoOYg",
+            "targetId": "7027.SonyYay.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "6Kd8Myl8RlCnZwTtwHkjwQ",
+            "targetId": "7038.SonyMax2.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "1",
+            "assetKey": "uKkSObGUQBm-3Aq48eaNoQ",
+            "targetId": "7028.SonyMaxSD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "11O4fBjGSwWlNUCxWhgHhg",
+            "targetId": "7029.SonyPal.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "fSP-VurtSKidUHC-mA0sjA",
+            "targetId": "7030.SonyAath.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "gXR2vJuKTnOPcNgXc_gG8w",
+            "targetId": "7031.SonyMarathi.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "1",
+            "assetKey": "_IjhpLUVR4aM_ueIshkymg",
+            "targetId": "7032.SonyMixSD.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "9lW3tKwCReC1fUDQJKrdug",
+            "targetId": "7033.BBCEarth.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "McSsXmSgR_qWRH_-966cUg",
+            "targetId": "0091.IndiaTV.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "bBK3ix-MSy6UTuKyvRerfw",
+            "targetId": "1062.NewsNation.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }, {
+            "enable": "0",
+            "assetKey": "h-JIKROyQmek_QEC2sLKAw",
+            "targetId": "0193.Tez.in",
+            "needParameter": true,
+            "descriptionUrlOfVideoAd": "https://www.mxplayer.in"
+          }],
+          "type": "videoDaiRoll",
+          "enable": "1"
+        },
+        "catchUpPreRoll": {
+          "ads": [{
+            "name": "sony",
+            "enable": "1",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/LiveTV/Sony_Catchup&description_url=http%3A%2F%2Fwww.mxplayer.in&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=&ad_rule=0",
+            "maxBitrate": 200,
+            "vastTimeoutInMs": 1000,
+            "mediaLoadTimeoutInMs": 4000
+          }],
+          "type": "videoRoll",
+          "enable": "1"
+        },
+        "offlineVideoRoll": {
+          "ads": [{
+            "name": "normal",
+            "enable": "0",
+            "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/Videos/downloaded_VideoAd&ad_rule=1&env=vp&impl=s&cmsid=2481704&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vmap&sz=400x300|640x480&unviewed_position_start=1&ciu_szs=720x120",
+            "needParameter": true
+          }],
+          "type": "videoRoll",
+          "enable": "0"
+        },
+        "videoRollFallback": {
+          "type": "videoRollFallback",
+          "portrait": {
+            "default": [{
+              "ads": [{
+                "id": "/6499/example/native",
+                "type": "DFPAppInstallContent",
+                "style": "320x100",
+                "banner": true,
+                "bannerSize": [
+                  "320x50",
+                  "320x100"]
+              }],
+              "type": "DFPAppInstallContent",
+              "style": "320x100",
+              "enable": "0",
+              "preload": true,
+              "displayTimeInSec": 10
+            }, {
+              "ads": [{
+                "id": "/21723553151/MXPlayer_Android_App_Online/Videos/Instrream_FallBack/FallBack_Interstitial/FallBack_Interstitial_GP",
+                "type": "DFPInterstitial"
+              }],
+              "type": "DFPInterstitial",
+              "enable": "1"
+            }]
+          },
+          "landscape": {
+            "default": [{
+              "ads": [{
+                "id": "/21723553151/MXPlayer_Android_App_Online/Videos/Instrream_FallBack/FallBack_Interstitial/FallBack_Interstitial_NoGP",
+                "type": "DFPInterstitial"
+              }],
+              "type": "DFPInterstitial",
+              "enable": "1"
+            }, {
+              "ads": [{
+                "id": "/6499/example/interstitial",
+                "type": "DFPAppInstallContent",
+                "style": "320x100",
+                "banner": true,
+                "bannerSize": [
+                  "320x50",
+                  "320x100"]
+              }],
+              "type": "DFPAppInstallContent",
+              "enable": "0",
+              "preload": true,
+              "displayTimeInSec": 10
+            }]
+          }
+        }
+      },
+      "trayNative": {
+        "withinTray": {
+          "tv": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/TV/Ads_Within_Tray_TV/Ads_Within_Tray_TV_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              14],
+            "colIndex": [
+              3,
+              2,
+              1,
+              2,
+              3,
+              1,
+              2,
+              1],
+            "multipleKey": true
+          },
+          "home": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Home/Ads_Within_Tray/Ads_Within_Tray_Home_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": false,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              14],
+            "colIndex": [
+              3,
+              2,
+              1,
+              2,
+              3,
+              1,
+              2,
+              1],
+            "multipleKey": true,
+            "refreshImpressedAd": true
+          },
+          "movies": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Movies/Ads_Within_Tray_Movies/Ads_Within_Tray_Movies_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              14],
+            "colIndex": [
+              3,
+              2,
+              1,
+              2,
+              3,
+              1,
+              2,
+              1],
+            "multipleKey": true
+          },
+          "webseries": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Shows/Ads_Within_Tray_Shows/Ads_Within_Tray_Shows_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": false,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              14],
+            "colIndex": [
+              3,
+              2,
+              1,
+              2,
+              3,
+              1,
+              2,
+              1],
+            "multipleKey": true,
+            "refreshImpressedAd": true
+          }
+        },
+        "betweenTray": {
+          "tv": {
+            "ads": [{
+              "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Native_HP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "style": "320x50",
+            "enable": "1",
+            "preload": true,
+            "rowIndex": [
+              3,
+              5,
+              7],
+            "multipleKey": true,
+            "preloadCount": 2,
+            "refreshImpressedAd": "true"
+          },
+          "home": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Home/MXPlayer_Native_OTTHome_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "style": "320x250",
+            "enable": "1",
+            "preload": true,
+            "rowIndex": [
+              9,
+              14],
+            "multipleKey": true,
+            "preloadCount": 2,
+            "refreshImpressedAd": "true"
+          },
+          "movies": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Movies/MXPlayer_Native_Movies_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "style": "320x250",
+            "enable": "1",
+            "preload": true,
+            "rowIndex": [
+              9,
+              14],
+            "multipleKey": true,
+            "preloadCount": 2,
+            "refreshImpressedAd": "true"
+          },
+          "webseries": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Shows/MXPlayer_Native_WebShows_NoGP",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "style": "320x250",
+            "enable": "1",
+            "preload": true,
+            "rowIndex": [
+              9,
+              14],
+            "multipleKey": true,
+            "preloadCount": 2,
+            "refreshImpressedAd": "true"
+          }
+        }
+      },
+      "singleNative": {
+        "banner": {
+          "home": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Home/MXPlayer_Android_App_Online_Home_noGP_Carousel",
+              "type": "DFPAppInstallContent"
+            }, {
+              "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_8",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "refreshImpressedAd": true
+          },
+          "music": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_10_10_Android_App_Online/mxplayer_10_10_android_app_online_music_noGP_carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          },
+          "shows": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/TV/TV_OnlineCarausel_NoGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          },
+          "movies": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_10_10_Android_App_Online/mxplayer_10_10_android_app_online_movies_noGP_carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          },
+          "sports": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Sports/Sports_OnlineCarousel_noGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          },
+          "webseries": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Shows/MXPlayer_Android_App_Online_Shows_noGP_Carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          },
+          "ac9c7003e29b06be167217e79802459b": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/News/News_OnlineCarausel_noGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          }
+        },
+        "masthead": {
+          "default": {
+            "ads": [{
+              "id": "OTTMasthead",
+              "type": "MxAdNativeBanner"
+            }],
+            "type": "panelNative",
+            "enable": "1",
+            "preload": true,
+            "preloadForStartup": false,
+            "refreshImpressedAd": true
+          }
+        },
+        "nativeList": {
+          "tv": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/TV/TV_Masthead_NoGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "0",
+            "preload": true,
+            "interval": 7
+          },
+          "home": {
+            "ads": [{
+              "id": "/21723553151/Test/Buzz/Buzz_Carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "style": "320x250",
+            "enable": "0",
+            "interval": 7
+          },
+          "more": {
+            "ads": [{
+              "id": "/21723553151/Test/More/More_Carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "0",
+            "interval": 7,
+            "startPosition": 5
+          },
+          "music": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Music/MXPlayer_Android_App_Online_Music_noGP_Native_Banner1",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "1",
+            "preload": true,
+            "interval": 7
+          },
+          "movies": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Movies/MXPlayer_Android_App_Online_Movies_noGP_Native_Banner1",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "1",
+            "preload": true,
+            "interval": 7
+          },
+          "sports": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/Sports/Sports_Native_Banner1",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "1",
+            "preload": true,
+            "interval": 7
+          },
+          "webseries": {
+            "ads": [{
+              "id": "/21723553151/Test/More/More_Carousel",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "0",
+            "preload": true,
+            "interval": 7
+          },
+          "myDownloads": {
+            "ads": [{
+              "id": "/6499/example/native",
+              "type": "DFPAppInstallContent"
+            }],
+            "enable": "0",
+            "interval": 8,
+            "startPosition": 1
+          },
+          "myDownloadEpisodes": {
+            "ads": [{
+              "id": "/21723553151/Test/Test_MXPlayer_Local_Native_Banner1",
+              "type": "DFPAppInstallContent"
+            }],
+            "enable": "0",
+            "interval": 8,
+            "startPosition": 1
+          },
+          "ac9c7003e29b06be167217e79802459b": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Android_App_Online/News/News_Native_Banner1",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "start": 5,
+            "enable": "1",
+            "preload": true,
+            "interval": 7
+          }
+        },
+        "maxPreloadForStartupCount": 2
+      },
+      "pauseBlockVideo": {
+        "ads": [{
+          "id": "Pauseblock",
+          "type": "MxAdNativeBanner",
+          "banner": true,
+          "bannerSize": [
+            "320x100",
+            "300x250",
+            "320x50",
+            "320x250"]
+        }],
+        "type": "panelNative",
+        "style": "320x250",
+        "enable": "1",
+        "preload": true,
+        "parallel": true,
+        "preWaitTime": 100,
+        "refreshImpressedAd": true,
+        "periodOfValiditySeconds": "3600"
+      },
+      "videoPlayerBottom": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Android_App_Online/Videos/video_detail_ABT",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x100",
+            "300x250",
+            "320x50",
+            "320x250"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Online/Videos/video_detail_NoGP",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x100",
+            "300x250",
+            "320x50",
+            "320x250"]
+        }],
+        "type": "panelNative",
+        "style": "320x62",
+        "enable": "1",
+        "preload": false,
+        "refresh": true,
+        "failedAdRequestThreshold": 40,
+        "failedAdRefreshRateInSeconds": 10,
+        "loadedAdRefreshRateInSeconds": 30
+      },
+      "videoPlayerBottomLandscape": {
+        "default": {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Online/Videos/video_overlay/video_overlay_NoGP",
+            "type": "DFPAppInstallContent",
+            "style": "320x100",
+            "banner": true,
+            "bannerSize": [
+              "320x50",
+              "320x100"]
+          }, {
+            "type": "DFPAppInstallContent",
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_3",
+            "banner": true,
+            "style": "320x100",
+            "bannerSize": [
+              "320x50",
+              "320x100"]
+          }],
+          "type": "panelNative",
+          "enable": "1",
+          "preload": true,
+          "startTimeInSec": 60,
+          "displayTimeInSec": 5,
+          "timeIntervalInSec": 120
+        }
+      }
+    },
+    "games": {
+      "wallet": {
+        "walletInterstitial": {
+          "ads": [{
+            "id": "21723553151/MXPlayer_Games/Rewarded_Interstitial/CashOut_Interstitial_NoGP",
+            "type": "DFPInterstitial"
+          }],
+          "type": "DFPInterstitial",
+          "enable": "1",
+          "interval": 3,
+          "parallel": "true",
+          "timeInterval": 300,
+          "videoInterval": 0,
+          "maxShownPerDay": 10
+        },
+        "cashoutInterstitial": {
+          "ads": [{
+            "id": "test",
+            "type": "DFPInterstitial"
+          }],
+          "type": "DFPInterstitial",
+          "enable": "3",
+          "parallel": "true",
+          "timeInterval": 300,
+          "videoInterval": 0,
+          "maxShownPerDay": 10
+        }
+      },
+      "trayNative": {
+        "withinTray": {
+          "allGames": {
+            "ads": [{
+              "id": "/21723553151/IndiaQA/IndiaQA_Banner",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              2,
+              3,
+              5,
+              7],
+            "multipleKey": true,
+            "preloadCount": 5,
+            "refreshImpressedAds": false
+          },
+          "featuredTournaments": {
+            "ads": [{
+              "id": "/21723553151/Test/Games/Between_Trays_Test",
+              "type": "DFPAppInstallContent",
+              "banner": true,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250",
+                "312x480"]
+            }],
+            "type": "trayNative",
+            "enable": "0",
+            "preload": true,
+            "colIndex": [
+              1,
+              2,
+              1,
+              1],
+            "rowIndex": [
+              1,
+              1,
+              4,
+              6],
+            "multipleKey": true,
+            "refreshImpressedAds": false
+          }
+        },
+        "betweenTray": {
+          "default": {
+            "ads": [{
+              "id": "/21723553151/IndiaQA/IndiaQA_Banner",
+              "type": "DFPAppInstallContent",
+              "banner": false,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }, {
+              "id": "/21723553151/IndiaQA/IndiaQA_Native_2",
+              "type": "DFPAppInstallContent",
+              "banner": false,
+              "bannerSize": [
+                "320x100",
+                "300x250",
+                "320x50",
+                "320x250"]
+            }],
+            "type": "trayNative",
+            "style": "320x50",
+            "enable": "0",
+            "preload": true,
+            "rowIndex": [
+              3,
+              5],
+            "multipleKey": true,
+            "refreshImpressedAds": false
+          }
+        }
+      },
+      "singleNative": {
+        "banner": {
+          "mxgames_v3": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Games/Carousel_Games_NoGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "0",
+            "preload": true,
+            "refresh": true
+          }
+        },
+        "masthead": {
+          "mxgames_v3": {
+            "ads": [{
+              "id": "/21723553151/MXPlayer_Games/Masthead_Games_noGP",
+              "type": "DFPAppInstallContent"
+            }],
+            "type": "panelNative",
+            "enable": "0",
+            "preload": true,
+            "refresh": true
+          }
+        },
+        "bottomSticky": {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Games/Games_Bottom_Sticky/MX_Games_App_Bottom_Sticky_noGP",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_7",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }],
+          "type": "panelNative",
+          "enable": "0",
+          "preload": true,
+          "refreshImpressedAds": false,
+          "failedAdRefreshRateInSeconds": 5,
+          "loadedAdRefreshRateInSeconds": 10
+        }
+      },
+      "rewardedVideo": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Games/Rewarded_video_NoGP",
+          "type": "DFPRewardedVideo",
+          "enable": true
+        }, {
+          "id": "/21723553151/MXPlayer_Games/Rewarded_Interstitial/Rewarded_Interstitial_NOGP",
+          "type": "DFPInterstitial",
+          "enable": true
+        }, {
+          "id": "rewarded_video",
+          "type": "PocketRewardedVideo",
+          "enable": true
+        }, {
+          "id": "/21723553151/MXPlayer_Games/Rewarded_video_house",
+          "type": "DFPInterstitial",
+          "enable": true
+        }],
+        "type": "rewarded",
+        "enable": "1",
+        "preload": true
+      },
+      "interstitialOnGameEnd": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Games/Rewarded_Interstitial/Interstitial_GamesEnd_NoGP",
+          "type": "DFPInterstitial"
+        }],
+        "type": "DFPInterstitial",
+        "enable": "1",
+        "preload": true
+      }
+    },
+    "local": {
+      "mxForYou": {
+        "ads": [{
+          "id": "/21723553151/MXForYou",
+          "type": "DFPAppInstallContent"
+        }],
+        "type": "panelNative",
+        "enable": "1",
+        "preload": true
+      },
+      "panelList": {
+        "type": "panelList",
+        "panel": [{
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.25/Native_Banner_1.25_NoGP/1.25_Banner1_NoGP",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.25/Native_Banner_1.25_GP/1.25_Banner1_medium_NoGP",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_1",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.25/Native_Banner_1.25_GP/1.25_Banner1_low_NoGP",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_Unified/Native_MastHead_HouseOnly/Native_MastHead_HouseOnly0",
+            "type": "DFPAppInstallContent",
+            "isHouseOnly": true,
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }],
+          "style": "320x250",
+          "preload": true,
+          "parallel": true,
+          "preWaitTime": 100,
+          "refreshImpressedAd": true,
+          "periodOfValiditySeconds": "3600"
+        }, {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_GP/1.16_native_banner_2_Nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"]
+          }, {
+            "type": "AppNextSuggestedApp",
+            "id": "41327650-5276-47ba-b3c3-c1bc3306181a",
+            "title": "Apps you may like",
+            "titleColor": "#35344C",
+            "titleColorDark": "#D0DCE7",
+            "appTitleColor": "#35344C",
+            "appTitleColorDark": "#D0DCE7",
+            "backgroundColor": "#E6F0FD",
+            "backgroundColorDark": "#152534",
+            "presentAppTitles": true,
+            "localDirection": true,
+            "transparency": 80
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_GP/1.16_native_banner_2_low_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"]
+          }, {
+            "type": "DFPAppInstallContent",
+            "id": "/21723553151/MXPlayer_Android_App_Local/Pauseblock_AB_Test",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_Unified/Native_MastHead_HouseOnly/Native_MastHead_HouseOnly1",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"],
+            "isHouseOnly": true
+          }],
+          "style": "320x50",
+          "parallel": true,
+          "refreshImpressedAd": true,
+          "distanceFromPrevious": 600,
+          "periodOfValiditySeconds": "3600"
+        }, {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_3_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_3_medium_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_3_low_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250",
+              "ADAPTIVE_BANNER"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_Unified/Native_MastHead_HouseOnly/Native_MastHead_HouseOnly2",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"],
+            "isHouseOnly": true
+          }],
+          "style": "320x50",
+          "parallel": true,
+          "refreshImpressedAd": true,
+          "distanceFromPrevious": 600,
+          "periodOfValiditySeconds": "3600"
+        }, {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_4_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_4_medium_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }, {
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_4_low_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }],
+          "style": "320x50",
+          "parallel": true,
+          "refreshImpressedAd": true,
+          "distanceFromPrevious": 600,
+          "periodOfValiditySeconds": "3600"
+        }, {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_5_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }],
+          "style": "320x50",
+          "distanceFromPrevious": 600,
+          "periodOfValiditySeconds": "3600"
+        }, {
+          "ads": [{
+            "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.16/Native_Banner_1.16_NoGP/1.16_native_banner_6_nogp",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "320x100",
+              "300x250",
+              "320x50",
+              "320x250"]
+          }],
+          "style": "320x50",
+          "distanceFromPrevious": 600,
+          "periodOfValiditySeconds": "3600"
+        }],
+        "enable": "1",
+        "loadNextCount": 0,
+        "startPosition": "bottom",
+        "320x250Distance": 300
+      },
+      "pauseBlock": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Android_App_Local/pause_block_1.15/mxplayer_android_1.15_pause_block",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50",
+            "320x100",
+            "300x250",
+            "300x200"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Local/pause_block_1.15/mxplayer_android_1.15_pause_block1",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50",
+            "320x100",
+            "300x250",
+            "300x200"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Local/pause_block_1.15/mxplayer_android_1.15_pause_block2",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50",
+            "320x100",
+            "300x250",
+            "300x200"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_6",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50",
+            "320x100",
+            "300x250",
+            "300x200"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Local/Pause_Block_Unified/Pause_Block_HouseOnly",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50",
+            "320x100",
+            "300x250",
+            "300x200"]
+        }],
+        "type": "panelNative",
+        "enable": "1",
+        "periodOfValiditySeconds": "3600"
+      },
+      "toolbarIcon": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Android_App_Local/top_hook",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "44x44"]
+        }],
+        "type": "panelNative",
+        "enable": "1",
+        "preload": false
+      },
+      "singleNative": {
+        "pauseRecAdFirst": {
+          "ads": [{
+            "id": "<Ad Unit Path>",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "300x250",
+              "300x200",
+              "320x100",
+              "320x50"]
+          }],
+          "type": "panelNative",
+          "enable": "0",
+          "periodOfValiditySeconds": "3600"
+        },
+        "pauseRecAdSecond": {
+          "ads": [{
+            "id": "/21723553151/Test/Sports/Sports_Masthead",
+            "type": "DFPAppInstallContent",
+            "banner": true,
+            "bannerSize": [
+              "300x250",
+              "300x200",
+              "320x100",
+              "320x50"]
+          }],
+          "type": "panelNative",
+          "enable": "0",
+          "periodOfValiditySeconds": "3600"
+        }
+      },
+      "emptyListMasthead": {
+        "ads": [{
+          "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_1.25/Native_Banner_1.25_GP/1.25_Banner_1_NoGP",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "300x250",
+            "320x100"]
+        }],
+        "type": "panelNative",
+        "enable": "1"
+      },
+      "interstitialAfterPlayback": {
+        "ads": [{
+          "type": "DFPInterstitial",
+          "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_1.15/Interstitial_1.15_NoGP"
+        }, {
+          "type": "DFPInterstitial",
+          "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_1.15/Interstitial_1.15_NoGP"
+        }, {
+          "type": "DFPInterstitial",
+          "id": "/21723553151/MXPlayer_Android_App_Local/interstitial_1.15/interstitial_1.15_nogp2"
+        }, {
+          "type": "DFPInterstitial",
+          "id": "/21723553151/MXPlayer_Android_App_Local/Interstitial_1.16/Interstitials_HouseOnly"
+        }],
+        "type": "DFPInterstitial",
+        "enable": "3",
+        "preload": true,
+        "noAdTime": 3600,
+        "parallel": false,
+        "timeInterval": 30,
+        "videoInterval": 0,
+        "maxShownPerDay": 25
+      }
+    },
+    "takatak": {
+      "startupAd": {
+        "ads": [{
+          "id": "appOpen",
+          "type": "MXAdInterstitial",
+          "preload": true
+        }],
+        "type": "DFPInterstitial",
+        "enable": "0",
+        "noAdTime": 0,
+        "maxShownPerDay": 25
+      },
+      "inAppVideoAd": {
+        "default": {
+          "ads": [{
+            "id": "inAppVideo",
+            "type": "MXAdInAppVideo",
+            "enable": false
+          }],
+          "type": "InAppVideo",
+          "start": 3,
+          "enable": "0",
+          "preload": true,
+          "interval": 5
+        }
+      },
+      "topViewVideoAd": {
+        "ads": [{
+          "id": "TopViewVideoAd",
+          "type": "MXAdInAppVideo",
+          "enable": false
+        }],
+        "type": "InAppVideo",
+        "enable": "0",
+        "preload": true
+      }
+    }
+  },
+  "gaanaAdConfig": {
+    "gaanaRoll": {
+      "ads": [{
+        "name": "foreground",
+        "enable": "1",
+        "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/MX_Audio/Audio_WC&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1&ciu_szs=300x250&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "adAfterNoOfSong": 3,
+        "timeBetweenAdInSec": 30,
+        "minAppUsage": 120
+      }, {
+        "name": "background",
+        "enable": "1",
+        "baseUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21723553151/MXPlayer_Android_App_Online/MX_Audio/Pure_Audio&description_url=[placeholder]&tfcd=0&npa=0&sz=1x1&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=",
+        "adAfterNoOfSong": 2,
+        "timeBetweenAdInSec": 30,
+        "minAppUsage": 120
+      }],
+      "type": "musicRoll",
+      "enable": "1",
+      "noAdTime": 10,
+      "minAppUsage": 10
+    },
+    "trayNative": {
+      "withinTray": {
+        "ads": [{
+          "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Native_HP",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x100",
+            "300x250",
+            "320x50",
+            "320x250"]
+        }],
+        "type": "trayNative",
+        "enable": "1",
+        "colIndex": [
+          3,
+          5],
+        "rowIndex": [
+          3,
+          4],
+        "multipleKey": true
+      },
+      "betweenTray": {
+        "ads": [{
+          "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_HP_320x100",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x100",
+            "300x250",
+            "320x50",
+            "320x250"]
+        }],
+        "type": "trayNative",
+        "style": "320x50",
+        "enable": "1",
+        "preload": true,
+        "rowIndex": [
+          5,
+          9,
+          16,
+          21],
+        "multipleKey": true,
+        "preloadCount": 3,
+        "refreshImpressedAd": "false"
+      }
+    },
+    "singleNative": {
+      "gaanaMastHead": {
+        "ads": [{
+          "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Masthead",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "360x180",
+            "320x150"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Online/Gaana/Gaana_Masthead_GP",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "360x180",
+            "320x150"]
+        }],
+        "type": "panelNative",
+        "style": "320x180",
+        "enable": "1",
+        "preload": true,
+        "refreshImpressedBannerAd": true,
+        "failedAdRefreshRateInSeconds": 30,
+        "loadedAdRefreshRateInSeconds": 30
+      },
+      "gaanaBottomPlayer": {
+        "ads": [{
+          "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_PLYR_BTF",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50"]
+        }, {
+          "id": "/21723553151/MXPlayer_Android_App_Local/Native_Banner_ABT/Native_Banner_ABT_4",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "320x50"]
+        }],
+        "type": "panelNative",
+        "style": "320x50",
+        "enable": "1",
+        "preload": true,
+        "failedAdRefreshRateInSeconds": 30,
+        "loadedAdRefreshRateInSeconds": 30
+      },
+      "gaanaPlayerPauseBlock": {
+        "ads": [{
+          "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_PLYR_MREC",
+          "type": "DFPAppInstallContent",
+          "banner": true,
+          "bannerSize": [
+            "300x250"]
+        }],
+        "type": "panelNative",
+        "enable": "1",
+        "preload": false,
+        "periodOfValiditySeconds": "3600"
+      }
+    },
+    "betweenPlaylist": {
+      "ads": [{
+        "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Native_HP",
+        "type": "DFPAppInstallContent",
+        "banner": true,
+        "bannerSize": [
+          "320x100",
+          "300x250",
+          "320x50",
+          "320x250"]
+      }],
+      "type": "trayNative",
+      "start": 4,
+      "style": "320x50",
+      "enable": "1",
+      "preload": true,
+      "interval": 5,
+      "multipleKey": true,
+      "refreshImpressedAd": "false"
+    },
+    "interstitialGaanaAppResume": {
+      "ads": [{
+        "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Followup_Interstitial",
+        "type": "DFPInterstitial",
+        "noAdTime": 120
+      }],
+      "type": "DFPInterstitial",
+      "enable": "1",
+      "appInactiveTime": 1
+    },
+    "interstitialGaanaAudioFallback": {
+      "ads": [{
+        "id": "/21715142772/GAANA_MXPlayer/GAANA_MX_APP_AOS/GAANA_MX_APP_AOS_Fallback_Interstitial",
+        "type": "DFPInterstitial",
+        "noAdTime": 120
+      }],
+      "type": "DFPInterstitial",
+      "enable": "1"
+    }
+  },
+  "global_config": {
+    "type": {
+      "InAppVideo": {
+        "last_event_time_threshold": 10
+      },
+      "DFPInterstitial": {
+        "last_event_time_threshold": 10
+      }
+    }
+  },
+  "filter": {
+    "adfreepass": {
+      "excludeFilter": {
+        "uri": ["ott", "local"]
+      }
+    }
+  }
+}
