@@ -5,7 +5,7 @@
   "nativeTimeToRefreshMS": 700,
   "adGroupName": "RB50_NOGP_1.34.00_above_2021_03_15_01",
   "MxAdServerURL": "https://mxaserver-beta.dev.mxplay.com/v1/mxplayer/",
-  "OmSdkURL": "https://mohit-chauhan-mx.github.io/adconfig/omsdk-v1.js",
+  "OmSdkURL": "https://mohit-chauhan-mx.github.io/adconfig/omsdk_v1.js",
   "ad_config": {
     "app": {
       "interstitialOnExit": {
