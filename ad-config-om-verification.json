@@ -804,7 +804,20 @@
           "displayTimeInSec": 5,
           "timeIntervalInSec": 120
         }
-      }
+      },
+      "interstitialontabchange": {
+                "ads": [{
+                    "id": "InterstitialExit",
+                    "type": "MXAdInterstitial"
+                }],
+                "type": "DFPInterstitial",
+                "enable": "3",
+                "parallel": "true",
+                "timeInterval": 180,
+                "tabChangeThreshold": 3,
+                "adPool": "app"
+
+            }
     },
     "games": {
       "wallet": {
