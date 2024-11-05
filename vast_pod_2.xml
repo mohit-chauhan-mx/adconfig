@@ -1,0 +1,241 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+<Ad id="mx-ede234cbd0ea492f8f9d4431eb50e7a0" sequence="1" conditionalAd="false">
+<InLine>
+<AdSystem version="1.0">mxadserver</AdSystem>
+<AdTitle>Men's Casual Shirts</AdTitle>
+<Description>Mx Ad Server</Description>
+<Creatives>
+<Creative id="mx-7269a4b68b474e7793a1457359dad3af">
+<Linear skipoffset="00:00:05.000">
+<Duration>00:00:14.000</Duration>
+<MediaFiles>
+<MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="438260" width="344" height="180">
+<![CDATA[ https://qqcdntest.mxplay.com/video/31e9790b0dffe700eb78bad9af5b25b7/download/h264_180_high_235k.mp4 ]]>
+</MediaFile>
+<MediaFile id="2" delivery="progressive" type="video/mp4" bitrate="777211" width="688" height="360">
+<![CDATA[ https://qqcdntest.mxplay.com/video/31e9790b0dffe700eb78bad9af5b25b7/download/h264_360_high_391k.mp4 ]]>
+</MediaFile>
+<MediaFile id="3" delivery="streaming" type="application/x-mpegURL" minBitrate="180754" maxBitrate="587893" width="344" height="180">
+<![CDATA[ https://qqcdntest.mxplay.com/video/31e9790b0dffe700eb78bad9af5b25b7/hls/h264_high.m3u8 ]]>
+</MediaFile>
+<MediaFile id="4" delivery="streaming" type="application/dash+xml" minBitrate="180754" maxBitrate="587893" width="344" height="180">
+<![CDATA[ https://qqcdntest.mxplay.com/video/31e9790b0dffe700eb78bad9af5b25b7/dash/h264_high.mpd ]]>
+</MediaFile>
+</MediaFiles>
+<VideoClicks>
+<ClickTracking>
+<![CDATA[ https://httpbin.org/ip/event=click&amp;adv=advertiser+name&amp;brand=mx+player&amp;campaign=newCampaign&amp;creativeid=mx-a01fcc9cdfd94a19877e40978cc26eca&amp;adtype=[ADTYPE]&amp;template=[TEMPLATE_ID]&amp;itemid=[ITEM_ID]&amp;cat=Automobiles&amp;subcat=SUV&amp;ctype=cpm&amp;adunit=VideoAd&amp;adid=[ADVERTISING_ID]&amp;lat=[NPA]&amp;cachebuster=[CACHEBUSTER] ]]>
+</ClickTracking>
+<ClickThrough>
+<![CDATA[ https://www.google.com/ ]]>
+</ClickThrough>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+<Impression>
+<![CDATA[ https://httpbin.org/ip/event=impression&amp;adv=advertiser+name&amp;brand=mx+player&amp;campaign=newCampaign&amp;creativeid=mx-a01fcc9cdfd94a19877e40978cc26eca&amp;adtype=[ADTYPE]&amp;template=[TEMPLATE_ID]&amp;itemid=[ITEM_ID]&amp;cat=Automobiles&amp;subcat=SUV&amp;ctype=cpm&amp;adunit=VideoAd&amp;adid=[ADVERTISING_ID]&amp;lat=[NPA]&amp;cachebuster=[CACHEBUSTER] ]]>
+</Impression>
+<AdVerifications>
+<Verification vendor="moat.com-mxplayeromsdknativevideo780101902588">
+<JavaScriptResource apiFramework="omid" browserOptional="false">
+<![CDATA[ https://z.moatads.com/mxplayeromsdknativevideo780101902588/moatvideo.js ]]>
+</JavaScriptResource>
+<VerificationParameters>
+<![CDATA[ {"moatClientLevel1":"Flipkartt","moatClientLevel2":"Test Expandable Companion","moatClientLevel3":"[ADID]","moatClientLevel4":"[CREATIVEID]","moatClientSlicer1":"VideoAd","moatClientSlicer2":"VideoAd"} ]]>
+</VerificationParameters>
+</Verification>
+</AdVerifications>
+<Extensions>
+<Extension type="mxParameters">
+<CtaText>INSTALL</CtaText>
+<CtaTextColor>#d21e67</CtaTextColor>
+<CtaBoxColor>#00FFFF</CtaBoxColor>
+<CtaTitleTextColor>#FF0000</CtaTitleTextColor>
+<EnableDeepLink>false</EnableDeepLink>
+</Extension>
+<Extension type="mxAdTrackers">
+<CustomTracking>
+<Tracking event="start">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="resume">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adSkipPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="loaded">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;uri=[MEDIA_URI]&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="buffering">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;uri=[MEDIA_URI]&amp;isBuffering=[IS_BUFFERING]&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="Error">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;uri=[MEDIA_URI]&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;reason=[ERRORREASON]&amp;code=[ERRORCODE] ]]>
+</Tracking>
+<Tracking event="ClickTracking">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="playerExpand">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="playerCollapse">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="skip_shown">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0&amp;adPosition=[SKIP_OFFSET] ]]>
+</Tracking>
+<Tracking event="Viewable">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="NotViewable">
+<![CDATA[ https://evt.dev..mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+<Tracking event="ViewUndetermined">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=Flipkart&amp;adId=mx-ede234cbd0ea492f8f9d4431eb50e7a0 ]]>
+</Tracking>
+</CustomTracking>
+</Extension>
+</Extensions>
+<Advertiser>Flipkart</Advertiser>
+</InLine>
+</Ad>
+<Ad id="ZAA8b" sequence="2" conditionalAd="false">
+<InLine>
+<AdSystem version="1.0">mxadserver</AdSystem>
+<Description>Mx Ad Server</Description>
+<Creatives>
+<Creative id="mx-e3a4cae5bd80484aa4f90c3fef36980e">
+<Linear skipoffset="00:00:10.000">
+<Duration>00:00:15.000</Duration>
+<MediaFiles>
+<MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="4379824" width="1080" height="1920">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/download/h264_1080_high_5800k.mp4 ]]>
+</MediaFile>
+<MediaFile id="2" delivery="progressive" type="video/mp4" bitrate="855988" width="360" height="640">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/download/h264_360_high_750k.mp4 ]]>
+</MediaFile>
+<MediaFile id="3" delivery="progressive" type="video/mp4" bitrate="1094010" width="480" height="852">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/download/h264_480_high_1750k.mp4 ]]>
+</MediaFile>
+<MediaFile id="4" delivery="progressive" type="video/mp4" bitrate="2022532" width="720" height="1280">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/download/h264_720_high_3000k.mp4 ]]>
+</MediaFile>
+<MediaFile id="5" delivery="streaming" type="application/x-mpegURL" minBitrate="1967396" maxBitrate="5121247" width="1080" height="1920">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/hls/h264_high.m3u8 ]]>
+</MediaFile>
+<MediaFile id="6" delivery="streaming" type="application/dash+xml" minBitrate="1967396" maxBitrate="5121247" width="1080" height="1920">
+<![CDATA[ https://qqcdntest.mxplay.com/video/c3aa048d48dfe9283186dbf588c1393a/dash/h264_high.mpd ]]>
+</MediaFile>
+</MediaFiles>
+<VideoClicks>
+<ClickTracking>
+<![CDATA[ https://ads-server.mxplay.com/?event=click&amp;adv=netflix&amp;brand=navarasa&amp;campaign=netflixnavarasa&amp;cat=mediaentertainment&amp;subcat=mediaentertainment&amp;ctype=cpm&amp;adunit=mxinstream&amp;adid=%%ADVERTISING_IDENTIFIER_PLAIN%%&amp;adtype=%%ADVERTISING_IDENTIFIER_TYPE%%&amp;lat=%%ADVERTISING_IDENTIFIER_IS_LAT%%&amp;redirect=0 ]]>
+</ClickTracking>
+<ClickThrough>
+<![CDATA[ https://www.youtube.com/ ]]>
+</ClickThrough>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+<Impression>
+<![CDATA[ https://ads-server.mxplay.com/?event=imp&amp;adv=netflix&amp;brand=navarasa&amp;campaign=netflixnavarasa&amp;cat=mediaentertainment&amp;subcat=mediaentertainment&amp;ctype=cpm&amp;adunit=mxinstream&amp;adid=%%ADVERTISING_IDENTIFIER_PLAIN%%&amp;adtype=%%ADVERTISING_IDENTIFIER_TYPE%%&amp;lat=%%ADVERTISING_IDENTIFIER_IS_LAT%%&amp;redirect=0 ]]>
+</Impression>
+<Extensions>
+<Extension type="mxParameters">
+<CtaText>INSTALL</CtaText>
+<EnableDeepLink>false</EnableDeepLink>
+</Extension>
+<Extension type="mxAdTrackers">
+<CustomTracking>
+<Tracking event="start">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="resume">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adSkipPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="loaded">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;uri=[MEDIA_URI]&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="buffering">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;uri=[MEDIA_URI]&amp;isBuffering=[IS_BUFFERING]&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="Error">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;uri=[MEDIA_URI]&amp;adId=ZAA8b&amp;reason=[ERRORREASON]&amp;code=[ERRORCODE] ]]>
+</Tracking>
+<Tracking event="ClickTracking">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="playerExpand">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="playerCollapse">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[AD_POSITION] ]]>
+</Tracking>
+<Tracking event="skip_shown">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b&amp;adPosition=[SKIP_OFFSET] ]]>
+</Tracking>
+<Tracking event="Viewable">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="NotViewable">
+<![CDATA[ https://evt.dev..mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+<Tracking event="ViewUndetermined">
+<![CDATA[ https://evt.dev.mxplay.com/v1/joyshare/client/realtime/records?s_id=[SESSION_ID]&amp;vid=[VIDEO_ID]&amp;adLoader=[AD_LOADER_NAME]&amp;adSeekType=[ADSEEKTYPE]&amp;categoryName=[CATEGORY_NAME]&amp;adType=[ADTYPE]&amp;adUnitId=[ADUNIT]&amp;adPodIndex=[AD_POD_INDEX]&amp;adIndexInPod=[AD_INDEX_IN_POD]&amp;creativeId=[CREATIVEID]&amp;advertiser=A+copy+feature&amp;adId=ZAA8b ]]>
+</Tracking>
+</CustomTracking>
+</Extension>
+</Extensions>
+<Advertiser>A copy feature</Advertiser>
+</InLine>
+</Ad>
+</VAST>
