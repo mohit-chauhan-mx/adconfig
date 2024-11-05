@@ -1,0 +1,58 @@
+<vmap:VMAP version="1.0" xmlns:vmap="/www.iab.net/vmap-1.0">
+	<vmap:AdBreak timeOffset="start" breakId="preroll-1" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:04:00.000" breakId="midroll-1" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_2.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:08:00.000" breakId="midroll-2" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_1.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:12:00.000" breakId="midroll-3" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_3.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:16:00.000" breakId="midroll-4" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_2.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:20:00.000" breakId="midroll-5" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_1.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="00:24:00.000" breakId="midroll-6" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_1.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak timeOffset="end" breakId="postroll-1" breakType="linear">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+			<AdTagURI templateType="vast3">
+				<![CDATA[https://mohit-chauhan-mx.github.io/adconfig/vast_pod_1.xml]]>
+			</AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+</vmap:VMAP>
